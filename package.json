@@ -1,0 +1,34 @@
+{
+  "name": "Weather_test_app",
+  "version": "1.0.1",
+  "description": "Test app for weathers",
+  "author": "thebestsheva@ukr.net",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^4.2.1",
+    "bootstrap-vue": "^2.0.0-rc.27",
+    "jquery": "^3.3.1",
+    "moment-timezone": "^0.5.26",
+    "nuxt": "^2.0.0",
+    "popper.js": "^1.14.6",
+    "vue-filter-date-format": "^1.1.5",
+    "vue-moment": "^4.0.0",
+    "vuex": "^3.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}

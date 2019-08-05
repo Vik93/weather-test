@@ -1,0 +1,13 @@
+.page-enter-active, .page-leave-active {
+    transition: opacity .5s;
+}
+.page-enter, .page-leave-active {
+    opacity: 0;
+}
+#modalErrorCity .modal-content{
+    background: #FE6466;
+    color: #fff;
+}
+#modalErrorCity .modal-content p{
+    margin: 0;
+}
