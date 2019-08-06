@@ -144,6 +144,9 @@ import momentTimezone from 'moment-timezone';
                 mostPopularCities: []
             }
         },
+        mounted(){
+            this.mostPopularCities = JSON.parse(getCookie('favoriteCities'));
+        },
         computed: {
             changeCitiesInfoGetter() {
                 return this.$store.getters.changeCitiesInfoGetter;
